@@ -273,3 +273,49 @@ hr {
   font-size: 30px;
   float: left;
 }
+
+.contact-us {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-us label {
+  font-size: 18px;
+}
+
+input[type="email"], textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 18px;
+  padding-left: 5px;
+}
+
+.contact-us input[type="email"] {
+  height: 25px;
+  border: none;
+  border-bottom: 2px solid rgb(224, 108, 65);
+  outline: none;
+}
+
+.contact-us textarea {
+  border: 2px solid rgb(224, 108, 65);
+  outline: none;
+}
+
+input[type="submit"] {
+  width: 70px;
+  height: 40px;
+  font-size: 18px;
+  background: rgb(224, 108, 65);
+  border: 2px solid rgb(224, 108, 65);
+  color: white;
+  transition-duration: 1s;
+  margin-bottom: 3px;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  background: white;
+  color: rgb(224, 108, 65);
+  border-color: rgb(224, 108, 65);
+}

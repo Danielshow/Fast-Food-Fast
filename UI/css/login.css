@@ -114,3 +114,50 @@ text-align: center;
 position: relative;
 margin-top: 4px;
 }
+
+@media screen and (max-width: 600px) {
+  .container2 .logo-row {
+    text-align: Center;
+    }
+
+    .loginpage {
+      width: 100%;
+      position: relative;
+      left: 0;
+      top: 0;
+      padding: 0 10px 0 10px;
+      margin: 0;
+    }
+
+    .socials {
+      width: 100%;
+    }
+
+    .list {
+      width: 100%;
+    }
+
+    .list ul {
+      padding: 0;
+      text-align: center;
+    }
+
+    .loginpage input[type="email"] {
+      max-width: 100%;
+    }
+
+    .loginpage input[type="password"] {
+      max-width: 100%;
+    }
+
+    .footer {
+      position: relative;
+      top: 0;
+    }
+}
+
+@media screen and (max-width: 300px) {
+  .signupbtn {
+    width: 100%;
+  }
+}

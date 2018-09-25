@@ -252,3 +252,24 @@ hr {
 #lunch, #dinner {
   display: none;
 }
+
+.testimonial {
+  margin-top: 5px;
+  width: 100%;
+  text-align: center;
+  background-image: linear-gradient(rgba(232, 226, 219, 0.9), rgba(232, 226, 219, 0.9)), url("../images/bg/barbecue.jpg");
+  min-height: 30vh;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size:cover;
+  padding-bottom: 10px;
+}
+
+.success-stories {
+  display: flex;
+}
+
+.quote {
+  font-size: 30px;
+  float: left;
+}

@@ -108,3 +108,9 @@ width: 50%;
 .container3 {
   padding: 16px;
 }
+
+.footer {
+text-align: center;
+position: relative;
+margin-top: 4px;
+}

@@ -351,3 +351,82 @@ input[type="submit"]:hover {
 .copy {
   clear: both;
 }
+
+/* Responsive */
+ @media screen and (max-width: 800px) and (min-width: 601px) {
+  .column {
+    width: 100%;
+    display: inline;
+  }
+  .disgrid{
+    display: block;
+  }
+  .column img{
+    width: 24%;
+  }
+
+  .contact-us{
+    width: 80%;
+    padding: 20px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    display: inline;
+    width: 100%;
+  }
+  .column img {
+    width: 100%;
+  }
+  .header li {
+    padding: 0 5px;
+    font-size: 16px;
+  }
+  .disgrid {
+    display: block;
+  }
+
+  .success-stories {
+    display: block;
+  }
+
+  .contact-us {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .socials {
+    width: 100%;
+  }
+
+  .list {
+    width: 100%;
+  }
+
+  .address p {
+    padding: 5px;
+    width: 100%;
+  }
+
+  .copy p {
+    padding: 5px;
+    width: 100%;
+  }
+
+  .list ul {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .header ul {
+    width: 100%;
+    padding: 5px;
+  }
+}
+
+.socials img {
+  height: 30px;
+  width: 30px;
+}

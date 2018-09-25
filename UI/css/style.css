@@ -319,3 +319,35 @@ input[type="submit"]:hover {
   color: rgb(224, 108, 65);
   border-color: rgb(224, 108, 65);
 }
+
+/* footer styling */
+.footer {
+  width: 100%;
+  min-height: 25vh;
+  background: rgb(40, 43, 46);
+  color: white;
+  overflow: hidden;
+}
+
+.list {
+  margin: 0;
+  float: left;
+}
+.list a {
+  color: white;
+}
+
+.list li {
+  display: inline;
+  padding-left: 5px;
+}
+
+.socials {
+  margin: 0;
+  float: right;
+  padding-right: 20px;
+}
+
+.copy {
+  clear: both;
+}
